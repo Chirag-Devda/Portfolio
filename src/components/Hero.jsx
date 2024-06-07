@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <Animated animationIn="zoomInDown" isVisible={true}>
+          <Animated animationIn="zoomInUp" isVisible={true}>
             <h1 className={`${styles.heroHeadText} text-white `}>
               Hi I'm <span className="text-[#915eff]">Chirag</span>
             </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="absolute xs:bottom-10 bottom-14 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}
