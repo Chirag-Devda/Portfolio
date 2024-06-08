@@ -25,6 +25,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import { Projects } from "../components";
 
 export const navLinks = [
   {
@@ -34,6 +35,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
