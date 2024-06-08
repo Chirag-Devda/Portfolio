@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   typescript,
+  Express,
   html,
   css,
   reactjs,
@@ -73,10 +74,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -93,12 +90,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Express JS",
+    icon: Express,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "git",
@@ -107,10 +104,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

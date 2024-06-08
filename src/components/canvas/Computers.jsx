@@ -19,7 +19,6 @@ const Computers = () => {
 
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
-      console.log(mediaQuery);
     };
   }, []);
   return (
