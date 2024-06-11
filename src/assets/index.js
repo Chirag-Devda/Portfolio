@@ -28,8 +28,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import Spotify from "./projects_Thumbnail/Spotify.jpeg";
+import CoinHub from "./projects_Thumbnail/CoinHub.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,7 +60,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  Spotify,
+  CoinHub,
   tripguide,
 };

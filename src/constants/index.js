@@ -20,12 +20,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  Spotify,
+  CoinHub,
   tripguide,
   threejs,
 } from "../assets";
-import { Projects } from "../components";
 
 export const navLinks = [
   {
@@ -196,46 +195,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crypto Coinhub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A multiple route page app with routes protection, with server authentication saving user data in Database with verification fully responsive with login/logout/signup features",
     tags: [
       {
-        name: "react",
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "MongoDb",
+        color: "yellow-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: CoinHub,
+    source_code_link:
+      "https://github.com/Chirag-Devda/React-Projects/tree/PROJECT7-FRONTEND",
+    project_link: "https://coinhub-crypto-app.vercel.app/signin",
   },
   {
-    name: "Job IT",
+    name: "Spotify Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Replicates Spotify’s core functionality Allows users to play/pause/next/previous/mute music, multiple albums with volume control and displays real-time track information",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "JS",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Spotify,
+    source_code_link:
+      "https://github.com/Chirag-Devda/Projects/tree/main/Spotify",
+    project_link: "https://www.spotifybychirag.freewebhostmost.com/",
   },
   {
     name: "Trip Guide",

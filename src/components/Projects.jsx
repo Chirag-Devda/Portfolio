@@ -13,6 +13,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   index,
+  project_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -29,16 +30,13 @@ const ProjectCard = ({
           <div className="card-img_hover absolute inset-0 m-3 flex justify-end gap-2">
             <div
               onClick={() => {
-                window.open(
-                  "https://www.flaticon.com/free-icon/link_10408896?term=link&page=1&position=96&origin=tag&related_id=10408896",
-                  "_blank",
-                );
+                window.open(project_link, "_blank");
               }}
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
                 src={Link}
-                alt="github"
+                alt="project"
                 className="h-1/2 w-1/2 object-contain"
               />
             </div>
