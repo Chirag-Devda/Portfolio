@@ -15,6 +15,7 @@ import {
   mongodb,
   git,
   figma,
+  Chakra,
   docker,
   meta,
   starbucks,
@@ -88,6 +89,10 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Chakra-Ui",
+    icon: Chakra,
   },
   {
     name: "Node JS",
@@ -204,7 +209,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Chakre-Ui",
         color: "blue-text-gradient",
       },
       {

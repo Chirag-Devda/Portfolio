@@ -22,6 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import Express from "./tech/Express.png";
 import threejs from "./tech/threejs.svg";
+import Chakra from "./tech/chakra.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -56,6 +57,7 @@ export {
   typescript,
   Express,
   threejs,
+  Chakra,
   meta,
   shopify,
   starbucks,
