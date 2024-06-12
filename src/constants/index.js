@@ -202,7 +202,7 @@ const projects = [
   {
     name: "Crypto Coinhub",
     description:
-      "A multiple route page app with routes protection, with server authentication saving user data in Database with verification fully responsive with login/logout/signup features",
+      "This multi-route page app features route protection and server authentication. It securely saves user data in a database with verification. The app is fully responsive and includes login, logout, and signup functionalities.",
     tags: [
       {
         name: "React",
@@ -225,7 +225,7 @@ const projects = [
   {
     name: "Spotify Clone",
     description:
-      "Replicates Spotify’s core functionality Allows users to play/pause/next/previous/mute music, multiple albums with volume control and displays real-time track information",
+      "This Music Streaming App replicates Spotify’s core functionality. It allows users to play, pause, skip to the next or previous track, and mute music. The app supports multiple albums and includes volume control features. Additionally, it displays real-time track information to enhance the user experience.",
     tags: [
       {
         name: "HTML",
@@ -248,7 +248,7 @@ const projects = [
   {
     name: "Foody Zone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
     tags: [
       {
         name: "React",
