@@ -31,7 +31,7 @@ import tesla from "./company/tesla.png";
 
 import Spotify from "./projects_Thumbnail/Spotify.jpeg";
 import CoinHub from "./projects_Thumbnail/CoinHub.png";
-import tripguide from "./tripguide.png";
+import FoodyZone from "./projects_Thumbnail/FoodyZone.png";
 
 export {
   logo,
@@ -64,5 +64,5 @@ export {
   tesla,
   Spotify,
   CoinHub,
-  tripguide,
+  FoodyZone,
 };

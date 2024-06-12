@@ -23,7 +23,7 @@ import {
   shopify,
   Spotify,
   CoinHub,
-  tripguide,
+  FoodyZone,
   threejs,
 } from "../assets";
 
@@ -219,7 +219,7 @@ const projects = [
     ],
     image: CoinHub,
     source_code_link:
-      "https://github.com/Chirag-Devda/React-Projects/tree/PROJECT7-FRONTEND",
+      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%207%20-%20MONGODB",
     project_link: "https://coinhub-crypto-app.vercel.app/signin",
   },
   {
@@ -246,25 +246,27 @@ const projects = [
     project_link: "https://www.spotifybychirag.freewebhostmost.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Foody Zone",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Express.js",
+        color: "text-white",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FoodyZone,
+    source_code_link:
+      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%204",
+    project_link: "https://foodyzone-rho.vercel.app",
   },
 ];
 
