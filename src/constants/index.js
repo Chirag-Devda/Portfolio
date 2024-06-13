@@ -24,6 +24,7 @@ import {
   Spotify,
   CoinHub,
   FoodyZone,
+  LockVault,
   threejs,
 } from "../assets";
 
@@ -267,6 +268,37 @@ const projects = [
     source_code_link:
       "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%204",
     project_link: "https://foodyzone-rho.vercel.app",
+  },
+  {
+    name: "Lock-Vault",
+    description:
+      "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "text-white",
+      },
+      {
+        name: "MongoDB Atlas",
+        color: "green-text-gradient",
+      },
+    ],
+    image: LockVault,
+    source_code_link:
+      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%205%20-%20MONGODB",
+    project_link: "https://lock-vault.vercel.app/",
   },
 ];
 
