@@ -25,6 +25,8 @@ import {
   CoinHub,
   FoodyZone,
   LockVault,
+  ContactApp,
+  WeatherApp,
   threejs,
 } from "../assets";
 
@@ -201,29 +203,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Crypto Coinhub",
-    description:
-      "This multi-route page app features route protection and server authentication. It securely saves user data in a database with verification. The app is fully responsive and includes login, logout, and signup functionalities.",
-    tags: [
-      {
-        name: "React",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Chakre-Ui",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDb",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: CoinHub,
-    source_code_link:
-      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%207%20-%20MONGODB",
-    project_link: "https://coinhub-crypto-app.vercel.app/signin",
-  },
-  {
     name: "Spotify Clone",
     description:
       "This Music Streaming App replicates Spotify’s core functionality. It allows users to play, pause, skip to the next or previous track, and mute music. The app supports multiple albums and includes volume control features. Additionally, it displays real-time track information to enhance the user experience.",
@@ -247,6 +226,29 @@ const projects = [
     project_link: "https://www.spotifybychirag.freewebhostmost.com/",
   },
   {
+    name: "Crypto Coinhub",
+    description:
+      "This multi-route page app features route protection and server authentication. It securely saves user data in a database with verification. The app is fully responsive and includes login, logout, and signup functionalities.",
+    tags: [
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chakre-Ui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB Atlas",
+        color: "green-text-gradient",
+      },
+    ],
+    image: CoinHub,
+    source_code_link:
+      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%207%20-%20MONGODB",
+    project_link: "https://coinhub-crypto-app.vercel.app/signin",
+  },
+  {
     name: "Foody Zone",
     description:
       "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
@@ -254,6 +256,10 @@ const projects = [
       {
         name: "React",
         color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
       },
       {
         name: "Node.js",
@@ -299,6 +305,60 @@ const projects = [
     source_code_link:
       "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%205%20-%20MONGODB",
     project_link: "https://lock-vault.vercel.app/",
+  },
+  {
+    name: "Contact App",
+    description:
+      "This Contact App allows users to Search contact and Add/Edit/Delete their contacts and all contacts are stored in database with the help of server",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "text-white",
+      },
+      {
+        name: "MongoDB Atlas",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ContactApp,
+    source_code_link:
+      "https://github.com/Chirag-Devda/React-Projects/tree/main/Project%206%20-%20MONGODB",
+    project_link: "https://contact-app-dun-seven.vercel.app/",
+  },
+  {
+    name: "Weather App",
+    description:
+      "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
+    tags: [
+      {
+        name: "HTML",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: WeatherApp,
+    source_code_link:
+      "https://github.com/Chirag-Devda/Daily-Js-Practice/tree/pr-6",
+    project_link: "https://weather-app-gules-two-89.vercel.app/",
   },
 ];
 

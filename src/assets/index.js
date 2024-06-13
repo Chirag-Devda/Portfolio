@@ -33,6 +33,8 @@ import Spotify from "./projects_Thumbnail/Spotify.jpeg";
 import CoinHub from "./projects_Thumbnail/CoinHub.png";
 import FoodyZone from "./projects_Thumbnail/FoodyZone.png";
 import LockVault from "./projects_Thumbnail/LockVault.png";
+import ContactApp from "./projects_Thumbnail/Contact-App.png";
+import WeatherApp from "./projects_Thumbnail/Weather-App.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   CoinHub,
   FoodyZone,
   LockVault,
+  ContactApp,
+  WeatherApp,
 };
