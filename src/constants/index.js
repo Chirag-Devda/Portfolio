@@ -278,7 +278,7 @@ const projects = [
   {
     name: "Lock-Vault",
     description:
-      "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
+      "This Password Manager App allows users to save and securely store their website URLs, usernames, and passwords in a database. It helps users easily access their credentials and solves the problem of forgetting login details.",
     tags: [
       {
         name: "React",
@@ -309,7 +309,7 @@ const projects = [
   {
     name: "Contact App",
     description:
-      "This Contact App allows users to Search contact and Add/Edit/Delete their contacts and all contacts are stored in database with the help of server",
+      "This Contact App allows users to search for contacts, and add, edit, or delete them. All contacts are securely stored in a database with the help of a server.",
     tags: [
       {
         name: "React",
@@ -340,7 +340,7 @@ const projects = [
   {
     name: "Weather App",
     description:
-      "This Food Ordering App allows users to filter food options based on the time of day and add items to their cart. It calculates the bill dynamically based on the quantity of each item. The app is designed to be responsive and works seamlessly across all devices.",
+      "This Weather App provides current weather information for any city or country via a search, and also shows weather for common locations automatically. It uses a weather API for accurate data and works seamlessly across all devices.",
     tags: [
       {
         name: "HTML",
