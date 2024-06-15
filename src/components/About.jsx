@@ -50,16 +50,16 @@ const About = () => {
         ))}
       </div>
       <motion.div
-        variants={fadeIn("left", "spring", 3, 1)}
+        variants={fadeIn("left", "spring", 2, 1)}
         className="flex justify-end px-8"
       >
-        <button
-          className={`mt-20 w-fit rounded-xl bg-tertiary px-8 py-5 text-[18px] font-bold text-white-100 shadow-md shadow-primary outline-none hover:scale-105`}
-        >
-          <a href="/Cv.pdf" download="Chirag Cv">
+        <a href="/Cv.pdf" download="Chirag Cv">
+          <button
+            className={`mt-20 w-fit rounded-xl bg-tertiary px-8 py-5 text-[18px] font-bold text-white-100 shadow-md shadow-primary outline-none hover:scale-105`}
+          >
             Download Cv
-          </a>
-        </button>
+          </button>
+        </a>
       </motion.div>
     </>
   );
