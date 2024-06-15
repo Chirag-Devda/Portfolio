@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { backend } from "../assets";
 const ServiceCard = ({ title, icon, index }) => {
   return (
     <div>
@@ -57,7 +56,7 @@ const About = () => {
         <button
           className={`mt-20 w-fit rounded-xl bg-tertiary px-8 py-5 text-[18px] font-bold text-white-100 shadow-md shadow-primary outline-none hover:scale-105`}
         >
-          <a href={backend} download="Chirag Cv">
+          <a href="/public/Cv.pdf" download="Chirag Cv">
             Download Cv
           </a>
         </button>
