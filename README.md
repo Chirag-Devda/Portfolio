@@ -8,7 +8,7 @@ Welcome to my portfolio! This project showcases my journey in exploring and lear
 
 1. **Spotify Clone**: A music streaming app inspired by Spotify's interface and functionality.
 2. **Food Ordering App**: A user-friendly platform for ordering food online with seamless navigation.
-3. **Coinhub**: A secure and efficient application for user authentication and cryptocurrency management.
+3. **Coinhub**: A secure and efficient application for user authentication
 
 ## Sections
 
